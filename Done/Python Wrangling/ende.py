@@ -1,10 +1,6 @@
-
 import sys
 import base64
 from cryptography.fernet import Fernet
-
-# https://play.picoctf.org/practice/challenge/166
-# flag is: 'picoCTF{4p0110_1n_7h3_h0us3_dbd1bea4}'
 
 usage_msg = "Usage: "+ sys.argv[0] +" (-e/-d) [file]"
 help_msg = usage_msg + "\n" +\

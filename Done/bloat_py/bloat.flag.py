@@ -1,9 +1,5 @@
 import sys
 
-# https://play.picoctf.org/practice/challenge/256
-# password is 'happychance'
-# flag is 'picoCTF{d30bfu5c4710n_f7w_161a4f09}'
-
 a = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ "
 def arg133(arg432):
   if arg432 == a[71]+a[64]+a[79]+a[79]+a[88]+a[66]+a[71]+a[64]+a[77]+a[66]+a[68]:
