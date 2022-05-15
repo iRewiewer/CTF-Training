@@ -8,8 +8,6 @@ import hashlib
 from cryptography.fernet import Fernet
 import base64
 
-
-
 # GLOBALS --v
 arcane_loop_trial = True
 jump_into_full = False
