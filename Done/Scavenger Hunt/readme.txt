@@ -1,0 +1,2 @@
+# https://play.picoctf.org/practice/challenge/161
+# flag is 'picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_f7ce8828}'
