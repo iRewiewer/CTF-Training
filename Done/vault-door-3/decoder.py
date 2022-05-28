@@ -22,20 +22,28 @@ public boolean checkPassword(String password) {
 
 key = list("jU5t_a_sna_3lpm18gb41_u_4_mfr340")
 
-for i in range(0, 8):
-    print(key[i], end = "")
+i = 0
+r = []
 
-#print("\n----------")
+for x in range(0,32):
+    r.append(x)
 
-for i in range(8, 16):
-    print(key[23-i], end = "")
+while i < 8:
+    r[i] = key[i]
+    i += 1
 
-#print("\n----------")
+while i < 16:
+    r[i] = key[23-i]
+    i += 1
 
-for i in range(16, 32, 2):
-    print(key[46-i], end = "")
+while i < 32:
+    r[i] = key[46-i]
+    i += 2
 
-#print("\n----------")
+i = 31
 
-for i in range(31, 17, -2):
-    print(key[i], end = "")
+while i >= 17:
+    r[i] = key[i]
+    i -= 2
+
+print(''.join(r))
