@@ -239,10 +239,8 @@ gAAAAABgT_nv39GmDRYkPhrc2hba8UHCHnSTHqdFxXNdemW0svN2hYYw-6n56ErD3NrQYQlNL0sfdsGT
         full_version_code = f.decrypt(full_version)
         fout.write(full_version_code.decode())
 
-writeGame()
-
 # Enter main loop
-#ui_flow()
+ui_flow()
 
 if jump_into_full:
     exec(full_version_code)
